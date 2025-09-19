@@ -1,0 +1,20 @@
+{
+  "name": "smart-doc-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "multer": "^1.4.5",
+    "pdf-parse": "^1.1.1",
+    "mammoth": "^1.4.17",
+    "sqlite3": "^5.1.6",
+    "openai": "^4.8.0",
+    "cors": "^2.8.5",
+    "socket.io": "^4.7.2",
+    "node-fetch": "^3.3.1"
+  }
+}
